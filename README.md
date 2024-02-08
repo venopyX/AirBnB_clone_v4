@@ -155,3 +155,4 @@ No known bugs at this time.
 
 ## Authors
 Ergi Lama - [Github](https://github.com/Ergi004)
+Izabela Nelaj - [Github](https://github.com/izabela9)
