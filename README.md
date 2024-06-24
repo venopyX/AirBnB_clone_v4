@@ -160,5 +160,12 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 Second part of Airbnb: Joann Vuong
+
+Late process development team: 
+Ran Kong - [Github](https://github.com/rkbrian)
+Christopher Caswell - [Github](https://github.com/Christopher-Caswell)
+Derek Clemens - [Github](https://github.com/urwithinrange)
+
+
 ## License
 Public Domain. No copy write protection. 
