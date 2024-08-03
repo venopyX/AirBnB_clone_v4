@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // this functiob will be triggered when a checkbox is called
     var checkedAmenities = {};
 
     $('input[type="checkbox"]').change(function() {
