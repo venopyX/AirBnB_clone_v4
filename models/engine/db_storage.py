@@ -8,8 +8,6 @@ import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from models import Base, Amenity, City, Place, Review, State, User
-
-# Assuming 'models' is a package that contains your ORM model definitions
 from models import storage
 
 # Dictionary mapping class names to classes
