@@ -3,7 +3,7 @@
 """
 Flask App that integrates with AirBnB static HTML Template
 """
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for # type: ignore
 from models import storage
 import uuid;
 
