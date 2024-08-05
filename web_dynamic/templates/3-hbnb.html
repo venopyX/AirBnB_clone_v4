@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Correct viewport meta tag -->
+    <meta name="description" content="Find the perfect place to stay with HBNB. Explore various amenities to find your ideal accommodation."> <!-- Description meta tag updated -->
+    <meta name="author" content="Your Name"> <!-- Author meta tag -->
+    <title>HBNB</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts/3-hbnb.js') }}"></script>
+    <link rel="stylesheet" href="/static/styles/3-header.css">
+</head>
+<body>
+    <header>
+        <div id="api_status" class="available"></div>
+        <!-- Additional header content -->
+    </header>
+    
+    <!-- Main content -->
+    <ul>
+        {% for amenity in amenities %}
+            <li>
+                <input type="checkbox" id="{{ amenity.id }}" data-id="{{ amenity.id }}" data-name="{{ amenity.name }}">
+                {{ amenity.name }}
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <!-- Additional content -->
+</body>
+</html>
