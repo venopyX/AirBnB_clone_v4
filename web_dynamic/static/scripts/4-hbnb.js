@@ -76,3 +76,8 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => console.error('Error:', error));
 });
+
+$('#search').click(function() {
+    const filters = {amenities: Object.keys(checkedAmenities)};
+    search(filters);
+});
