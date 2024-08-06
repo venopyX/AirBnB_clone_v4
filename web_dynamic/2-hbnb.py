@@ -7,6 +7,8 @@ from models.amenity import Amenity
 from models.place import Place
 from os import environ
 from flask import Flask, render_template
+from flask import Flask
+from flask_cors import CORS
 
 app = Flask(__name__)
 # app.jinja_env.trim_blocks = True
@@ -35,7 +37,7 @@ def hbnb():
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
 
-    return render_template('0-hbnb.html',
+    return render_template('2-hbnb.html',
                            states=st_ct,
                            amenities=amenities,
                            places=places)
