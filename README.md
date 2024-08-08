@@ -163,7 +163,7 @@ Second part of Airbnb: Joann Vuong
 
 Final part of Airbnb:
 Egba Frank - [Email] EgbaFrank72@gmail.com
-
 Solomon Nwante - [Github](https://github.com/CNwante) / [Twitter](https://twitter.com/CNwante) [Email] solomonchuks202@gmail.com
+
 ## License
 Public Domain. No copy write protection.
