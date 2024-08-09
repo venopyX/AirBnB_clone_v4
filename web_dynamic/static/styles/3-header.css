@@ -11,7 +11,7 @@ header .logo {
     height: 100%;
 }
 
-header #api_status {
+header .available {
     width: 40px;
     height: 40px;
     background: #CCCCCC;
