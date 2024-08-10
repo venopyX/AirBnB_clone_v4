@@ -1,4 +1,3 @@
-
 $('document').ready(function () {
   // Check API status
   const url = 'http://0.0.0.0:5001/api/v1/status/';
@@ -9,14 +8,14 @@ $('document').ready(function () {
       $('DIV#api_status').removeClass('available');
     }
   }).fail(function (jqXHR) {
-	  // This will handle network errors or no response issues;
-	  $('DIV#api_status').removeClass('available');
+  // This will handle network errors or no response issues;
+    $('DIV#api_status').removeClass('available');
   });
 
   // Fetch places
-  const places_route = 'http://0.0.0.0:5001/api/v1/places_search/';
+  const placesRoute = 'http://0.0.0.0:5001/api/v1/places_search/';
   $.ajax({
-    url: places_route,
+    url: placesRoute,
     type: 'POST',
     data: '{}',
     dataType: 'json',
@@ -36,19 +35,18 @@ $('document').ready(function () {
                 ${place.number_bathrooms} Bathroom
               </div>
             </div>
-            <div class="description">${place.description || "None"}</div>
+            <div class="description">${place.description || 'None'}</div>
           </article>
         `;
       }));
     }
   });
 
-  let amenities = {}
-  $('INPUT[type="checkbox"]').change( function () {
+  const amenities = {};
+  $('INPUT[type="checkbox"]').change(function () {
     if ($(this).is(':checked')) {
       amenities[$(this).attr('data-id')] = $(this).attr('data-name');
-    }
-    else {
+    } else {
       delete amenities[$(this).attr('data-id')];
     }
     $('.amenities H4').text(Object.values(amenities).join(', '));
