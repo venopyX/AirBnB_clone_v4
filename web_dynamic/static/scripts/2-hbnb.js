@@ -1,4 +1,3 @@
-
 $('document').ready(function () {
   const url = 'http://0.0.0.0:5001/api/v1/status/';
   $.get(url, function (response) {
@@ -6,7 +5,11 @@ $('document').ready(function () {
       $('DIV#api_status').addClass('available');
     } else {
       $('DIV#api_status').removeClass('available');
+	    console.log("Failed")
     }
+  }).fail(function (jqXHR) {
+	  // This will handle network errors or no response issues;
+	  $('DIV#api_status').removeClass('available');
   });
 
   let amenities = {}

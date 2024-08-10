@@ -21,6 +21,6 @@ header div#api_status {
     border-radius: 50%;
 }
 
-.available {
+header div#api_status.available {
   background: #ff545f;
 }
