@@ -8,11 +8,14 @@ $('document').ready(function () {
     } else {
       $('DIV#api_status').removeClass('available');
     }
+  }).fail(function (jqXHR) {
+	  // This will handle network errors or no response issues;
+	  $('DIV#api_status').removeClass('available');
   });
 
   // Fetch places
   const places_route = 'http://0.0.0.0:5001/api/v1/places_search/';
-  $ajax({
+  $.ajax({
     url: places_route,
     type: 'POST',
     data: '{}',
@@ -24,7 +27,7 @@ $('document').ready(function () {
           <article>
             <div class="title_box">
               <h2>${place.name}</h2>
-              <div class="price_by_night">${place.price_by_night}</div>
+              <div class="price_by_night">$${place.price_by_night}</div>
             </div>
             <div class="information">
               <div class="max_guest">${place.max_guest} Guest </div>
@@ -33,10 +36,7 @@ $('document').ready(function () {
                 ${place.number_bathrooms} Bathroom
               </div>
             </div>
-            <div class="user">
-              <b>Owner:</b>${place.user.first_name, place.user.last_name }
-            </div>
-            <div class="description">${place.description}</div>
+            <div class="description">${place.description || "None"}</div>
           </article>
         `;
       }));
