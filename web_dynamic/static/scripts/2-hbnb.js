@@ -5,9 +5,9 @@ $(document).ready(function () {
     method: 'GET',
     success: function (response) {
       if (response.status === "OK") {
-        $('div#api_status').addClass('available');
+        $('#api_status').addClass('available');
       } else {
-        $('div#api_status').removeClass('available');
+        $('#api_status').removeClass('available');
       }
     }  
   });
