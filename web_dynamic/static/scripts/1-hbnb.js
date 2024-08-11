@@ -18,7 +18,6 @@ $(function () {
     // Remove the amenity if the checkbox is unchecked
       delete selectedAmenities[id];
     }
-    // Update the displayed list of selected amenities
-    $('.amenities h4').text(Object.values(selectedAmenities));
+    $('.amenities h4').text(Object.values(selectedAmenities).join(', '));
   });
 });
