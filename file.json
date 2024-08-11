@@ -1,0 +1,216 @@
+{
+	"BaseModel.dd52e210-0a0a-4f48-aba9-129c09d5b083": {
+		"id": "dd52e210-0a0a-4f48-aba9-129c09d5b083",
+		"created_at": "2024-08-06T04:50:24.300285",
+		"updated_at": "2024-08-06T04:50:24.300285",
+		"__class__": "BaseModel"
+	},
+	"State.965c91e6-1c6b-4001-88de-fde415e4d2ca": {
+		"name": "Arizona",
+		"created_at": "2024-08-06T10:12:09.276009",
+		"updated_at": "2024-08-06T10:12:09.276047",
+		"id": "965c91e6-1c6b-4001-88de-fde415e4d2ca",
+		"__class__": "State"
+	},
+	"State.92038c0a-7701-4499-8d9c-e3cf04511298": {
+		"name": "Ohio",
+		"created_at": "2024-08-06T10:16:13.211148",
+		"updated_at": "2024-08-06T10:16:13.211231",
+		"id": "92038c0a-7701-4499-8d9c-e3cf04511298",
+		"__class__": "State"
+	},
+	"State.d8e94fa2-2710-40e0-9d3c-40ed5b00c681": {
+		"name": "Texas",
+		"created_at": "2024-08-06T10:16:52.657918",
+		"updated_at": "2024-08-06T10:16:52.658001",
+		"id": "d8e94fa2-2710-40e0-9d3c-40ed5b00c681",
+		"__class__": "State"
+	},
+	"State.6e2d673d-ba64-434f-919b-8c5d70193e1b": {
+		"name": "Florida",
+		"created_at": "2024-08-06T10:17:02.766481",
+		"updated_at": "2024-08-06T10:17:02.766538",
+		"id": "6e2d673d-ba64-434f-919b-8c5d70193e1b",
+		"__class__": "State"
+	},
+	"State.c76968c7-4d3a-4042-93c1-3c9a3d4c5d9b": {
+		"name": "California",
+		"created_at": "2024-08-06T10:17:10.514532",
+		"updated_at": "2024-08-06T10:17:10.514570",
+		"id": "c76968c7-4d3a-4042-93c1-3c9a3d4c5d9b",
+		"__class__": "State"
+	},
+	"State.e45594a4-2824-4075-9a86-70ce3653a144": {
+		"name": "tr",
+		"created_at": "2024-08-06T10:53:45.495555",
+		"updated_at": "2024-08-06T10:53:45.495647",
+		"id": "e45594a4-2824-4075-9a86-70ce3653a144",
+		"__class__": "State"
+	},
+	"City.147fbef5-061d-4e79-896b-e2e901bf99b3": {
+		"name": "Miami",
+		"created_at": "2024-08-07T04:32:32.007342",
+		"updated_at": "2024-08-07T04:32:32.007399",
+		"id": "147fbef5-061d-4e79-896b-e2e901bf99b3",
+		"state_id": "6e2d673d-ba64-434f-919b-8c5d70193e1b",
+		"__class__": "City"
+	},
+	"City.d807b069-c052-4f8d-b2c7-a7bd63008892": {
+		"name": "Orlando",
+		"created_at": "2024-08-07T04:33:08.636635",
+		"updated_at": "2024-08-07T04:33:08.636683",
+		"id": "d807b069-c052-4f8d-b2c7-a7bd63008892",
+		"state_id": "6e2d673d-ba64-434f-919b-8c5d70193e1b",
+		"__class__": "City"
+	},
+	"City.3b6f9ce1-ca57-4dc5-8cdc-d734d1c818b8": {
+		"name": "Tallahassee",
+		"created_at": "2024-08-07T04:38:45.238888",
+		"updated_at": "2024-08-07T04:38:45.238924",
+		"id": "3b6f9ce1-ca57-4dc5-8cdc-d734d1c818b8",
+		"state_id": "6e2d673d-ba64-434f-919b-8c5d70193e1b",
+		"__class__": "City"
+	},
+	"City.5200d721-e515-4247-afa9-75e892066b87": {
+		"name": "Tucson",
+		"created_at": "2024-08-07T04:40:20.831317",
+		"updated_at": "2024-08-07T04:40:20.831363",
+		"id": "5200d721-e515-4247-afa9-75e892066b87",
+		"state_id": "965c91e6-1c6b-4001-88de-fde415e4d2ca",
+		"__class__": "City"
+	},
+	"City.0a41acee-1caa-4661-9d45-93ba6e816b24": {
+		"name": "Yuma",
+		"created_at": "2024-08-07T04:41:00.856309",
+		"updated_at": "2024-08-07T04:41:00.856345",
+		"id": "0a41acee-1caa-4661-9d45-93ba6e816b24",
+		"state_id": "965c91e6-1c6b-4001-88de-fde415e4d2ca",
+		"__class__": "City"
+	},
+	"Amenity.63b9e893-f4ad-4a52-af20-666b555fa52e": {
+		"name": "Cable Tv",
+		"created_at": "2024-08-11T05:36:27.934054",
+		"updated_at": "2024-08-11T05:36:27.934446",
+		"id": "63b9e893-f4ad-4a52-af20-666b555fa52e",
+		"__class__": "Amenity"
+	},
+	"Amenity.608a70a2-0dd1-46a2-9d6d-2bf0b0878fe7": {
+		"name": "Air Conditioning",
+		"created_at": "2024-08-11T05:44:08.346441",
+		"updated_at": "2024-08-11T05:44:08.346588",
+		"id": "608a70a2-0dd1-46a2-9d6d-2bf0b0878fe7",
+		"__class__": "Amenity"
+	},
+	"Amenity.b9fa984a-2db2-4642-a944-c978d1680a1f": {
+		"name": "Breackfast",
+		"created_at": "2024-08-11T05:44:31.028926",
+		"updated_at": "2024-08-11T05:44:31.028973",
+		"id": "b9fa984a-2db2-4642-a944-c978d1680a1f",
+		"__class__": "Amenity"
+	},
+	"Amenity.aead74ea-84c2-487d-8a0f-5f4e233d0332": {
+		"name": "Dogs",
+		"created_at": "2024-08-11T05:52:54.136181",
+		"updated_at": "2024-08-11T05:52:54.136390",
+		"id": "aead74ea-84c2-487d-8a0f-5f4e233d0332",
+		"__class__": "Amenity"
+	},
+	"Amenity.76f89e99-3a4c-444a-875d-4b331f89c8d4": {
+		"name": "Doorman",
+		"created_at": "2024-08-11T05:52:59.947820",
+		"updated_at": "2024-08-11T05:52:59.947864",
+		"id": "76f89e99-3a4c-444a-875d-4b331f89c8d4",
+		"__class__": "Amenity"
+	},
+	"Amenity.f519229f-7571-4569-9130-5739efd2edac": {
+		"name": "Cat(s)",
+		"created_at": "2024-08-11T05:53:17.010840",
+		"updated_at": "2024-08-11T05:53:17.010882",
+		"id": "f519229f-7571-4569-9130-5739efd2edac",
+		"__class__": "Amenity"
+	},
+	"User.1e4c7ec4-2711-44a9-96d4-8f04bb4e8b80": {
+		"email": "sskert10@gmail.com",
+		"password": "51e2831f7c824b48adb2fb194949003d",
+		"first_name": "Sekyi",
+		"last_name": "Skert",
+		"created_at": "2024-08-11T06:10:52.994434",
+		"updated_at": "2024-08-11T06:10:52.994912",
+		"id": "1e4c7ec4-2711-44a9-96d4-8f04bb4e8b80",
+		"__class__": "User"
+	},
+	"User.08e66463-fd13-4c09-97b4-e7cb03cee6f9": {
+		"email": "sskert10@gmail.com",
+		"password": "bb37c85cff2917a43fa8ab7253b40ab6",
+		"first_name": "Sekyi",
+		"last_name": "Skert",
+		"created_at": "2024-08-11T06:11:27.925884",
+		"updated_at": "2024-08-11T06:11:27.925954",
+		"id": "08e66463-fd13-4c09-97b4-e7cb03cee6f9",
+		"__class__": "User"
+	},
+	"Place.9b9a3ac4-61fa-4620-8533-028a76c310d6": {
+		"city_id": "3b6f9ce1-ca57-4dc5-8cdc-d734d1c818b8",
+		"user_id": "08e66463-fd13-4c09-97b4-e7cb03cee6f9",
+		"name": "Beautiful Studio Rooms",
+		"amenity_ids": "608a70a2-0dd1-46a2-9d6d-2bf0b0878fe7",
+		"description": "If you use a multi-element selector, like the class selector we used in the previous example, and we know that we're looking for elements of a specific type, it's good practice to specify the element type before the selector. Not only is it more precise, it's also faster for  jQuery to process, resulting in more responsive sites. Here is a re-written version of the previous example, where we use this method:",
+		"max_guest": 2,
+		"numeber_rooms": 4,
+		"numeber_bathrooms": 8,
+		"created_at": "2024-08-11T06:28:11.585076",
+		"updated_at": "2024-08-11T06:28:11.585344",
+		"id": "9b9a3ac4-61fa-4620-8533-028a76c310d6",
+		"__class__": "Place"
+	},
+	"City.a703dc2b-4eb8-4998-badd-82e6f1e8b857": {
+		"name": "Galveston",
+		"created_at": "2024-08-11T06:39:55.484038",
+		"updated_at": "2024-08-11T06:39:55.484190",
+		"id": "a703dc2b-4eb8-4998-badd-82e6f1e8b857",
+		"state_id": "d8e94fa2-2710-40e0-9d3c-40ed5b00c681",
+		"__class__": "City"
+	},
+	"Place.4cabf5b6-552d-4bd1-8943-c0e85aae5981": {
+		"user_id": "08e66463-fd13-4c09-97b4-e7cb03cee6f9",
+		"name": "Baywatch Dolphin Tour",
+		"amenity_ids": [
+			"608a70a2-0dd1-46a2-9d6d-2bf0b0878fe7",
+			"63b9e893-f4ad-4a52-af20-666b555fa52e",
+			"76f89e99-3a4c-444a-875d-4b331f89c8d4"
+		],
+		"description": "This Galveston Baywatch Dolphin Tour is a great way to see dolphins on the water in just a few hours. Meet your group and captain at Pier 21 and join the boat you\u2019re assigned for this experience. Then, take off on the water to enjoy some time searching for dolphins in their natural habitat. Catch sight of dolphins in their natural habitat during this Galveston tour Perfect for nature lovers who are short on time No need to rush on board\u2014all seats offer great viewing opportunities A captain knows the best areas on the water to spot dolphins",
+		"max_guest": 6,
+		"numeber_rooms": 8,
+		"numeber_bathrooms": 3,
+		"price_by_night": 329,
+		"latitude": -94.792802857672,
+		"longitude": "29.309400464654054",
+		"city_id": "a703dc2b-4eb8-4998-badd-82e6f1e8b857",
+		"created_at": "2024-08-11T06:49:19.954826",
+		"updated_at": "2024-08-11T06:49:19.955034",
+		"id": "4cabf5b6-552d-4bd1-8943-c0e85aae5981",
+		"__class__": "Place"
+	},
+	"Place.03f48f7e-7c47-4b20-98c5-729e093be6f7": {
+		"user_id": "08e66463-fd13-4c09-97b4-e7cb03cee6f9",
+		"name": "Baywatch Dolphin Tour",
+		"amenity_ids": [
+			"608a70a2-0dd1-46a2-9d6d-2bf0b0878fe7",
+			"63b9e893-f4ad-4a52-af20-666b555fa52e",
+			"76f89e99-3a4c-444a-875d-4b331f89c8d4"
+		],
+		"description": "This Galveston Baywatch Dolphin Tour is a great way to see dolphins on the water in just a few hours. Meet your group and captain at Pier 21 and join the boat you\u2019re assigned for this experience. Then, take off on the water to enjoy some time searching for dolphins in their natural habitat. Catch sight of dolphins in their natural habitat during this Galveston tour Perfect for nature lovers who are short on time No need to rush on board\u2014all seats offer great viewing opportunities A captain knows the best areas on the water to spot dolphins",
+		"max_guest": 6,
+		"numeber_rooms": 8,
+		"numeber_bathrooms": 3,
+		"price_by_night": 329,
+		"latitude": -94.792802857672,
+		"longitude": 29.309400464654054,
+		"city_id": "a703dc2b-4eb8-4998-badd-82e6f1e8b857",
+		"created_at": "2024-08-11T06:51:43.027322",
+		"updated_at": "2024-08-11T06:51:43.027374",
+		"id": "03f48f7e-7c47-4b20-98c5-729e093be6f7",
+		"__class__": "Place"
+	}
+}

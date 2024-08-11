@@ -46,7 +46,7 @@
 					<ul>
 						{% for amenity in amenities %}
 						<li>
-							<input type="checkbox" data-id=":amenity_id" data-name=":amenity_name"
+							<input type="checkbox" data-id="{{amenity.id}}" data-name="{{amenity.name}}"
 								style="padding-right: 10px;">
 							{{ amenity.name }}
 						</li>
@@ -61,7 +61,7 @@
 		</div>
 		<section class="places">
 			<!-- <h1>Places</h1> -->
-			{% for place in places %}
+			{% for place, user in places %}
 			<article>
 				<div class="title_box">
 					<h2>{{ place.name }}</h2>
@@ -75,7 +75,7 @@
 						%}s{% endif %}</div>
 				</div>
 				<div class="user">
-					<b>Owner:</b> {{ place.user.first_name }} {{ place.user.last_name }}
+					<b>Owner:</b> {{ user.first_name }} {{ user.last_name }}
 				</div>
 				<div class="description">
 					{{ place.description | safe }}
