@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // Object to keep track of selected amenities
   const selectedAmenities = {};
 
@@ -26,13 +26,13 @@ $(document).ready(function() {
    * Adds the 'available' class to the #api_status element if the status is 'OK'
    * Removes the 'available' class from the #api_status element if the status is not 'OK' or the request fails
    */
-  $.get('http://0.0.0.0:5001/api/v1/status/', function(data) {
+  $.get('http://0.0.0.0:5001/api/v1/status/', function (data) {
     if (data.status === 'OK') { // If the status is 'OK'
       $('#api_status').addClass('available'); // Add the 'available' class to the #api_status element
     } else { // If the status is not 'OK'
       $('#api_status').removeClass('available'); // Remove the 'available' class from the #api_status element
     }
-  }).fail(function() {
+  }).fail(function () {
     $('#api_status').removeClass('available'); // Remove the 'available' class from the #api_status element if the request fails
   });
 });
