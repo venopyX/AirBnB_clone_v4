@@ -78,12 +78,4 @@ window.addEventListener('load', function () {
       $('section.places').append(template);
     }
   });
-}
-
-      //task 5:
-      searchPlace();
-
-      $('button').click(function () {
-        searchPlaces(amenityIds);
-      });
 });
