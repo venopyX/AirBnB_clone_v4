@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Define source and destination directories
+src_dir="web_flask"
+dest_dir="web_dynamic"
+
+# Check if destination directory exists, if not create it
+if [ ! -d "$dest_dir" ]; then
+  mkdir -p "$dest_dir"
+fi
+
+# Copy the specified files and directories
+cp -r "$src_dir/static" "$dest_dir"
+cp "$src_dir/templates/100-hbnb.html" "$dest_dir"
+cp "$src_dir/__init__.py" "$dest_dir"
+cp "$src_dir/100-hbnb.py" "$dest_dir"
